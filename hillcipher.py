@@ -4,13 +4,30 @@ import math
 # Returns decrypted ciphertext that has been encrypted using
 # a hill cipher with key and m=m.
 #
-# ciphertext = code to be decrypted
+# ciphertext = Code to be decrypted. Must be uppercase
 # key = mxm matrix used to encode ciphertext
-# m = dimensions of key matrix as well as number of characters encoded
+# m = Dimensions of key matrix as well as number of characters encoded
 
 
 def decryptHill(ciphertext, key, m):
-    return None
+    plaintext = ""
+    cipherLen = len(ciphertext)
+    keyInverse = decryptionKey(key)
+
+    for i in range(0, cipherLen, 2):  # Start at 0, Stop at Length of cipher, Step by 2
+        if i == cipherLen-(m-1):
+            break
+
+        tempCode = [[]]
+        for j in range(m):
+            tempCode[0].append(ord(ciphertext[i + j])-65)
+
+        ptVector = matrixMult(tempCode, keyInverse)
+
+        for l in ptVector[0]:
+            plaintext = plaintext + chr(l + 65)
+
+    return plaintext
 
 
 #   matrixMult(x, y)
@@ -31,7 +48,7 @@ def matrixMult(x, y):
             for k in range(len(y)):
                 sum = sum + (x[i][k] * y[k][j])
 
-            ret[i][j] = sum
+            ret[i][j] = sum % 26
 
     return ret
 
@@ -63,7 +80,7 @@ def decryptionKey(key):
 
     return ret
 
-    #multiplicativeInverse(key, mod)
+#   multiplicativeInverse(key, mod)
 # key is an integer
 # returns the multiplicative inverse
 # of key in the form keyInverse * key = 1 mod mod
@@ -114,7 +131,9 @@ def getDeterminant(key):
 
     determinant = a - b
 
-    if determinant == 0:  # Effectively short-circuits multiplicativeInverse with one calculation
+    determinant = determinant % 26
+
+    if determinant == 0:  # Effectively short-circuits multiplicativeInverse
         return None
 
     ret = multiplicativeInverse(determinant, 26)
@@ -122,12 +141,4 @@ def getDeterminant(key):
     if ret == None:
         return None
 
-    print(ret)
     return ret
-
-
-x = [[12, 7, 3], [4, 5, 6], [7, 8, 9]]
-
-y = [[5, 8, 1, 2], [6, 7, 3, 0], [4, 5, 9, 1]]
-
-print(matrixMult(x, y))
