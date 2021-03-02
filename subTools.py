@@ -8,6 +8,12 @@ from affinecipher import decodeAffineCipher, breakKey
 from tokenizer import *
 import sys
 
+def displayCipherText(cipherText):
+    for char in cipherText:
+        print(char, end=" ")
+    
+    print()
+
 if len(sys.argv) != 2:
     print("Incorrect usage.")
     print('Usage: python shiftTools.py cipherText')
@@ -78,7 +84,9 @@ while(cont):
     x-y press enter
     a-b press enter
     q to quit
+    r to remove
     s to show partial solution
+    z to show cipher text
     c to clear solution set
     p to print stats again
     or k to try a cipher''')
@@ -96,6 +104,9 @@ while(cont):
             print("Partial Solution:")
             displayPartialSolution(cipherText, solutionSet)
             print("=========================================================")
+        elif temp == 'Z':
+            print("Cipher Text:")
+            displayCipherText(cipherText)
         elif temp == 'C':
             solutionSet = {}
         elif temp == 'K':
@@ -138,9 +149,12 @@ while(cont):
                     print(decodeAffineCipher(cipherText, (a, b)))
                 else:
                     print("Improper Input")
-
             else:
                 print("Improper Input")
+        elif temp == 'R':
+            print("Enter substitution to remove:")
+            a = input().upper()
+            del solutionSet[a]
         elif temp == 'P':
             print("Top 10 Unigrams in Engligh Language:")
             for x in range(10):
