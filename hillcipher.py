@@ -142,3 +142,7 @@ def getDeterminant(key):
         return None
 
     return ret
+
+
+x = (decryptionKey([[11, 20], [9, 23]]))
+print(matrixMult(x, [[11, 20], [9, 23]]))

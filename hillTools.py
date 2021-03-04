@@ -4,14 +4,17 @@ import sys
 
 test = [[8, 7], [5, 17]]
 
-'''if len(sys.argv) != 2:
+if len(sys.argv) != 2:
     print("Incorrect usage.")
-    print('Usage: python shiftTools.py cipherText')
+    print('Usage: python hillTools.py cipherText.txt')
     sys.exit()
 
-cipherText = str(sys.argv[1])'''
+f = open(str(sys.argv[1]))
+cipherText = f.read()
+f.close()
 
-cipherText = "DELW"
+cipherText = cipherText.strip()
+
 cipherBigramFreq = bigrams(cipherText)
 
 sortedBigrams = sorted(cipherBigramFreq.items(),
@@ -34,6 +37,7 @@ cont = True
 
 while(cont):
     print('''
+    p to show stats
     t to try a combination
     or q to quit''')
 
@@ -46,6 +50,16 @@ while(cont):
         if temp == 'Q':
             flag = False
             cont = False
+        elif temp == 'P':
+            print("Top 15 Bigrams in Engligh Language:")
+            for x in range(7):
+                print(bigramFreq[x] + "\t" + bigramFreq[7 + x])
+            print("   \t" + bigramFreq[14])
+            print("========================================================")
+
+            print("Bigram frequencies occuring more than once:")
+            print([x for x in sortedBigrams if x[1] > 1])
+            print("=========================================================")
         elif temp == 'T':
             print("Enter first pair to try in the form: p1 p2 c1 c2")
             firstInput = input().upper().split()
@@ -69,7 +83,7 @@ while(cont):
                     print("Decryption:")
                     print(decryptHill(cipherText, keyAttempt, 2))
                 else:
-                    print("Key has no inverse")
+                    print("Key has no inverse, Incorrect Key:")
                     print(keyAttempt)
             else:
                 print("plain text matrix has no inverse")

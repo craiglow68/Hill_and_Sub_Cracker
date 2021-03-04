@@ -3,20 +3,20 @@
 # Usage: python shiftTools.py cipherText
 
 from displayPartial import displayPartialSolution
-from shiftcipher import decodeShiftCipher
-from affinecipher import decodeAffineCipher, breakKey
 from tokenizer import *
 import sys
+
 
 def displayCipherText(cipherText):
     for char in cipherText:
         print(char, end=" ")
-    
+
     print()
+
 
 if len(sys.argv) != 2:
     print("Incorrect usage.")
-    print('Usage: python shiftTools.py cipherText')
+    print('Usage: python subTools.py cipherText.txt')
     sys.exit()
 
 f = open(str(sys.argv[1]))
@@ -85,11 +85,11 @@ while(cont):
     a-b press enter
     q to quit
     r to remove
+    ss to show solution set
     s to show partial solution
     z to show cipher text
     c to clear solution set
-    p to print stats again
-    or k to try a cipher''')
+    p to print stats again''')
 
     flag = True
 
@@ -104,53 +104,13 @@ while(cont):
             print("Partial Solution:")
             displayPartialSolution(cipherText, solutionSet)
             print("=========================================================")
+        elif temp == "SS":
+            print(solutionSet)
         elif temp == 'Z':
             print("Cipher Text:")
             displayCipherText(cipherText)
         elif temp == 'C':
             solutionSet = {}
-        elif temp == 'K':
-            print("Choose which cipher to try:")
-            print("1 for shift")
-            print("2 for affine")
-            k = int(input())
-            if k == 1:  # Shift stuff
-                print("Enter key to shift by:")
-                k = int(input())
-                print(decodeShiftCipher(cipherText, int(k)))
-            elif k == 2:  # Affine stuff
-                print(
-                    "Find a key given two substitutions or try a key to try a key of the form: k a")
-                print("1 Find key ")
-                print("2 Try a key")
-                k = int(input())
-
-                if k == 1:
-                    print("Type first substitution of the form: c-y and press enter")
-                    first = input()
-                    first = first.upper()
-                    print("Type second substitution of the form: a-b and press enter")
-                    second = input()
-                    second = second.upper()
-
-                    key = breakKey(first[0], first[2], second[0], second[2])
-                    if key == None:
-                        print("Invalid selections")
-                    else:
-                        print("Key: ", end="")
-                        print(key)
-                        print("Decoded Text: ")
-                        print(decodeAffineCipher(cipherText, key))
-                elif k == 2:
-                    print("Enter a:")
-                    a = int(input())
-                    print("Enter b:")
-                    b = int(input())
-                    print(decodeAffineCipher(cipherText, (a, b)))
-                else:
-                    print("Improper Input")
-            else:
-                print("Improper Input")
         elif temp == 'R':
             print("Enter substitution to remove:")
             a = input().upper()

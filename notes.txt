@@ -1,0 +1,401 @@
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O Q U I C K L Y T H E A B O V E S E
+N T E N C E H A S T H E P R O P E R T Y T H A T A L L T H E T W E N T Y S I X C H A R A C T E R S O F T H E E N G L I S
+H A L P H A B E T A P P E A R S I N I T A T L E A S T O N C E S U C H S E N T E N C E S A R E C A L L E D P A N G R A M
+S A N D T H E Y A R E U S E D F O R P R A C T I C E W H E N L E A R N I N G T Y P E W R I T I N G N O W C A N Y O U T E
+L L M E W H Y I U S E D A P A N G R A M A S P A R T O F T H E P L A I N T E X T F O R T H I S C I P H E R A L S O C A N
+Y O U C O M E U P W I T H A P A N G R A M Y O U R S E L F W I T H O U T G O O G L I N G
+
+
+
+
+Top 10 Unigrams in Engligh Language:
+('E', 12.702)
+('T', 9.056)
+('A', 8.167)
+('O', 7.507)
+('I', 6.966)
+('N', 6.749)
+('S', 6.327)
+('H', 6.094)
+('R', 5.987)
+('D', 4.253)
+========================================================
+Top 15 Bigrams in Engligh Language:
+TH      ON
+HE      ES
+IN      ST
+ER      EN
+AN      AT
+RE      TO
+ED      NT
+        HA
+========================================================
+Top 15 Trigrams in Engligh Language:
+THE     NTH
+ING     WAS
+AND     ETH
+HER     FOR
+ERE     DTH
+ENT     HAT
+THA     SHE
+        ION
+========================================================
+Top 15 Unigram frequencies in cipher:
+[('S', 43), ('K', 33), ('Z', 33), ('G', 24), ('T', 24), ('B', 20), ('V', 19), ('E', 18), ('Y', 18), ('M', 15), ('U', 15
+, ('R', 14), ('A', 10), ('O', 10), ('X', 9)]
+=========================================================
+Bigram frequencies occuring more than once:
+[('KV', 11), ('VS', 9), ('ST', 8), ('TA', 8), ('ZG', 7), ('KS', 6), ('ET', 6), ('VZ', 6), ('GZ', 6), ('ZT', 6), ('GS',
+), ('TK', 5), ('YS', 5), ('GY', 4), ('SC', 4), ('SZ', 4), ('RS', 4), ('ZU', 4), ('EK', 4), ('MZ', 4), ('BO', 4), ('GB',
+3), ('MG', 3), ('KB', 3), ('SY', 3), ('TR', 3), ('ZY', 3), ('MS', 3), ('SG', 3), ('GK', 3), ('KX', 3), ('KZ', 3), ('UU'
+ 3), ('ZM', 3), ('US', 3), ('RZ', 3), ('AG', 3), ('ZJ', 3), ('SP', 3), ('XB', 3), ('BP', 2), ('YM', 2), ('WS', 2), ('CK
+, 2), ('EH', 2), ('HK', 2), ('OG', 2), ('FG', 2), ('BJ', 2), ('SS', 2), ('AK', 2), ('BB', 2), ('ER', 2), ('XK', 2), ('Z
+', 2), ('YK', 2), ('SM', 2), ('ZK', 2), ('SK', 2), ('YE', 2), ('RV', 2), ('ZR', 2), ('RK', 2), ('YB', 2), ('BF', 2), ('
+K', 2), ('AU', 2), ('UE', 2), ('EY', 2), ('MV', 2), ('TE', 2), ('OR', 2), ('YZ', 2), ('SO', 2), ('OY', 2), ('FB', 2), (
+BG', 2), ('KE', 2), ('PV', 2), ('TX', 2), ('OK', 2), ('SU', 2), ('JS', 2), ('PE', 2)]
+=========================================================
+Trigram frequencies occuring more than once:
+[('KVS', 7), ('STK', 4), ('TKS', 4), ('ETA', 4), ('TRS', 3), ('MZT', 3), ('ZTA', 3), ('TAG', 3), ('AGZ', 3), ('GZJ', 3)
+ ('XBO', 3), ('ZGY', 2), ('CKV', 2), ('TAK', 2), ('XKV', 2), ('YST', 2), ('KST', 2), ('STR', 2), ('ZYK', 2), ('VSM', 2)
+ ('KVZ', 2), ('ZUU', 2), ('GZR', 2), ('ZRK', 2), ('BFK', 2), ('FKV', 2), ('AUE', 2), ('SZG', 2), ('USZ', 2), ('RSY', 2)
+ ('ZGS', 2), ('OYS', 2), ('YSC', 2), ('FBG', 2), ('SPV', 2), ('RZT', 2), ('ZTX', 2), ('TXB', 2), ('BOK', 2), ('ZMZ', 2)
+ ('PEK', 2), ('EKV', 2)]
+=========================================================
+To build solution set type substitutions of the form:
+    x-y press enter
+    a-b press enter
+    q to quit
+    r to remove
+    ss to show solution set
+    s to show partial solution
+    z to show cipher text
+    c to clear solution set
+    p to print stats again
+    or k to try a cipher
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+i b
+g r
+s
+Partial Solution:
+B R - - - - - R - - R - - - - - - - - - - - - - - - R - - R - - - R - - - - - - - - - - - - - - - - - - - - B - - - - -
+- - - - - - - - - - - - - R - - - R - - - - - - - - - - - - - - - - - - - - - - - - R - - - - R - - - - - - - - - - - -
+- - - - - - B - - - - - - - R - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - R - - - - - - - - - - - R - -
+- - - - - - - - - R - - - - - - - R - R - - - - - - - - - - - - - R - - - - - - - - - R - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - R - - - - - - R - - - - - - - - - - - - - - - - - R - - - - - - - - - R - - - - - - -
+- - - - - - - - - - - - - - - - - - R - - - - - R - - - - - - - - - - - - - - - - - - -
+=========================================================
+b o
+p w
+t n
+s
+Partial Solution:
+B R O W N - - R - - R - - - N - - - - - - - - - - - R - - R O - - R - - - - N - - O O - - - - - - - - - - - B O - - - -
+N - - N - - - - - - - - - R O - - R - - - - - - - - - - - - - W - N - - - - - - - - R - - - - R - O - - - - - N - - - -
+- - - - - - B - - - - - - - R - - N - - - - - - - - - O N - - - - - - - - N - - N - - - - R - - - - - - - - - N - R - -
+- - N - - - - - - R - - - - - - O R - R - - - - - - W - - N - - - R N - N - - - - - W R - - - N - N O W - - N - O - - -
+- - - - W - - - - - - - - - - N - R - - - - - - R - O - - - - - - - - N - - - - - O R - - - - - - - - - R - - - O - - N
+- O - - O - - - - W - - - - - - N - R - - - O - R - - - - W - - - O - - - O O - - - N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+z a
+s
+Partial Solution:
+B R O W N - A R - - R - - - N - - - - - - - - - - - R - - R O - - R - - - - N - - O O - - - - - - - - - - A B O - - - -
+N - - N - - - A - - - - - R O - - R - - - - A - A - - - - - - W - N - - - - - - - A R A - - - R - O - - - - - N - - - -
+- A - - - A B - - A - - - A R - - N - - A - - - A - - O N - - - - - - - - N - - N - - - A R - - A - - - - - A N - R A -
+- A N - - - - - A R - - - - - - O R - R A - - - - - W - - N - - A R N - N - - - - - W R - - - N - N O W - A N - O - - -
+- - - - W - - - - - - - A - A N - R A - A - - A R - O - - - - - - A - N - - - - - O R - - - - - - - - - R A - - O - A N
+- O - - O - - - - W - - - A - A N - R A - - O - R - - - - W - - - O - - - O O - - - N -
+=========================================================
+l j
+s
+Partial Solution:
+B R O W N J A R - - R - - - N - - - - - - - - - - - R - - R O - - R - - - - N - - O O - - - - - - - - - - A B O - - - -
+N - - N - - - A - - - - - R O - - R - - - - A - A - - - - - - W - N - - - - - - - A R A - - - R - O - - - - - N - - - -
+- A - - - A B - - A - - - A R - - N - - A - - - A - - O N - - - - - - - - N - - N - - - A R - - A - - - - - A N - R A -
+- A N - - - - - A R - - - - - - O R - R A - - - - - W - - N - - A R N - N - - - - - W R - - - N - N O W - A N - O - - -
+- - - - W - - - - - - - A - A N - R A - A - - A R - O - - - - - - A - N - - - - - O R - - - - - - - - - R A - - O - A N
+- O - - O - - - - W - - - A - A N - R A - - O - R - - - - W - - - O - - - O O - - - N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+y s
+m p
+s e
+s
+Partial Solution:
+B R O W N J A R S P R E - E N - E - - - E - - - - - R E - R O - - R E E - - N - - O O - - - - - - - - - E A B O - E S E
+N - E N - E - A S - - E P R O P E R - - - - A - A - - - - E - W E N - - S - - - - A R A - - E R S O - - - E E N - - - S
+- A - P - A B E - A P P E A R S - N - - A - - E A S - O N - E S - - - S E N - E N - E S A R E - A - - E - P A N - R A -
+S A N - - - E - A R E - S E - - O R P R A - - - - E W - E N - E A R N - N - - - P E W R - - - N - N O W - A N - O - - E
+- - - E W - - - - S E - A P A N - R A - A S P A R - O - - - E P - A - N - E - - - O R - - - S - - P - E R A - S O - A N
+- O - - O - E - P W - - - A P A N - R A - - O - R S E - - W - - - O - - - O O - - - N -
+=========================================================
+k t
+v h
+s
+Partial Solution:
+B R O W N J A R S P R E - E N T E - T H E - - - T - R E - R O - - R E E - - N - T O O - - - - - - - T H E A B O - E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S - - - H A R A - T E R S O - T H E E N - - - S
+H A - P H A B E T A P P E A R S - N - T A T - E A S T O N - E S - - H S E N T E N - E S A R E - A - - E - P A N - R A -
+S A N - T H E - A R E - S E - - O R P R A - T - - E W H E N - E A R N - N - T - P E W R - T - N - N O W - A N - O - T E
+- - - E W H - - - S E - A P A N - R A - A S P A R T O - T H E P - A - N T E - T - O R T H - S - - P H E R A - S O - A N
+- O - - O - E - P W - T H A P A N - R A - - O - R S E - - W - T H O - T - O O - - - N -
+=========================================================
+r
+Enter substitution to remove:
+k
+r
+Enter substitution to remove:
+v
+s
+Partial Solution:
+B R O W N J A R S P R E - E N - E - - - E - - - - - R E - R O - - R E E - - N - - O O - - - - - - - - - E A B O - E S E
+N - E N - E - A S - - E P R O P E R - - - - A - A - - - - E - W E N - - S - - - - A R A - - E R S O - - - E E N - - - S
+- A - P - A B E - A P P E A R S - N - - A - - E A S - O N - E S - - - S E N - E N - E S A R E - A - - E - P A N - R A -
+S A N - - - E - A R E - S E - - O R P R A - - - - E W - E N - E A R N - N - - - P E W R - - - N - N O W - A N - O - - E
+- - - E W - - - - S E - A P A N - R A - A S P A R - O - - - E P - A - N - E - - - O R - - - S - - P - E R A - S O - A N
+- O - - O - E - P W - - - A P A N - R A - - O - R S E - - W - - - O - - - O O - - - N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+w v
+s
+Partial Solution:
+B R O W N J A R S P R E V E N - E - - - E - - - - - R E - R O - - R E E - - N - - O O - - - - - - - - - E A B O V E S E
+N - E N - E - A S - - E P R O P E R - - - - A - A - - - - E - W E N - - S - - - - A R A - - E R S O - - - E E N - - - S
+- A - P - A B E - A P P E A R S - N - - A - - E A S - O N - E S - - - S E N - E N - E S A R E - A - - E - P A N - R A -
+S A N - - - E - A R E - S E - - O R P R A - - - - E W - E N - E A R N - N - - - P E W R - - - N - N O W - A N - O - - E
+- - - E W - - - - S E - A P A N - R A - A S P A R - O - - - E P - A - N - E - - - O R - - - S - - P - E R A - S O - A N
+- O - - O - E - P W - - - A P A N - R A - - O - R S E - - W - - - O - - - O O - - - N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+k t
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E - T - E - - - T - R E - R O - - R E E - - N - T O O - - - - - - - T - E A B O V E S E
+N T E N - E - A S T - E P R O P E R T - T - A T A - - T - E T W E N T - S - - - - A R A - T E R S O - T - E E N - - - S
+- A - P - A B E T A P P E A R S - N - T A T - E A S T O N - E S - - - S E N T E N - E S A R E - A - - E - P A N - R A -
+S A N - T - E - A R E - S E - - O R P R A - T - - E W - E N - E A R N - N - T - P E W R - T - N - N O W - A N - O - T E
+- - - E W - - - - S E - A P A N - R A - A S P A R T O - T - E P - A - N T E - T - O R T - - S - - P - E R A - S O - A N
+- O - - O - E - P W - T - A P A N - R A - - O - R S E - - W - T - O - T - O O - - - N -
+=========================================================
+c d
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T - E - - - T - R E - R O - - R E E - - N - T O O - - - - - - - T - E A B O V E S E
+N T E N - E - A S T - E P R O P E R T - T - A T A - - T - E T W E N T - S - - - - A R A - T E R S O - T - E E N - - - S
+- A - P - A B E T A P P E A R S - N - T A T - E A S T O N - E S - - - S E N T E N - E S A R E - A - - E D P A N - R A -
+S A N D T - E - A R E - S E D - O R P R A - T - - E W - E N - E A R N - N - T - P E W R - T - N - N O W - A N - O - T E
+- - - E W - - - - S E D A P A N - R A - A S P A R T O - T - E P - A - N T E - T - O R T - - S - - P - E R A - S O - A N
+- O - - O - E - P W - T - A P A N - R A - - O - R S E - - W - T - O - T - O O - - - N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+v h
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E - - - T - R E - R O - - R E E - - N - T O O - - - - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S - - - H A R A - T E R S O - T H E E N - - - S
+H A - P H A B E T A P P E A R S - N - T A T - E A S T O N - E S - - H S E N T E N - E S A R E - A - - E D P A N - R A -
+S A N D T H E - A R E - S E D - O R P R A - T - - E W H E N - E A R N - N - T - P E W R - T - N - N O W - A N - O - T E
+- - - E W H - - - S E D A P A N - R A - A S P A R T O - T H E P - A - N T E - T - O R T H - S - - P H E R A - S O - A N
+- O - - O - E - P W - T H A P A N - R A - - O - R S E - - W - T H O - T - O O - - - N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+j m
+e i
+h x
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T - R E - R O M - R E E - I N - T O O - - I - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X - H A R A - T E R S O - T H E E N - - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N - E S - - H S E N T E N - E S A R E - A - - E D P A N - R A M
+S A N D T H E - A R E - S E D - O R P R A - T I - E W H E N - E A R N I N - T - P E W R I T I N - N O W - A N - O - T E
+- - M E W H - I - S E D A P A N - R A M A S P A R T O - T H E P - A I N T E X T - O R T H I S - I P H E R A - S O - A N
+- O - - O M E - P W I T H A P A N - R A M - O - R S E - - W I T H O - T - O O - - I N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+o u
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E - R O M - R E E - I N - T O O - U I - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X - H A R A - T E R S O - T H E E N - - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N - E S U - H S E N T E N - E S A R E - A - - E D P A N - R A M
+S A N D T H E - A R E U S E D - O R P R A - T I - E W H E N - E A R N I N - T - P E W R I T I N - N O W - A N - O U T E
+- - M E W H - I U S E D A P A N - R A M A S P A R T O - T H E P - A I N T E X T - O R T H I S - I P H E R A - S O - A N
+- O U - O M E U P W I T H A P A N - R A M - O U R S E - - W I T H O U T - O O - - I N -
+=========================================================
+f f
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E - I N - T O O - U I - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X - H A R A - T E R S O F T H E E N - - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N - E S U - H S E N T E N - E S A R E - A - - E D P A N - R A M
+S A N D T H E - A R E U S E D F O R P R A - T I - E W H E N - E A R N I N - T - P E W R I T I N - N O W - A N - O U T E
+- - M E W H - I U S E D A P A N - R A M A S P A R T O F T H E P - A I N T E X T F O R T H I S - I P H E R A - S O - A N
+- O U - O M E U P W I T H A P A N - R A M - O U R S E - F W I T H O U T - O O - - I N -
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+n z
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N - T O O - U I - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X - H A R A - T E R S O F T H E E N - - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N - E S U - H S E N T E N - E S A R E - A - - E D P A N - R A M
+S A N D T H E - A R E U S E D F O R P R A - T I - E W H E N - E A R N I N - T - P E W R I T I N - N O W - A N - O U T E
+- - M E W H - I U S E D A P A N - R A M A S P A R T O F T H E P - A I N T E X T F O R T H I S - I P H E R A - S O - A N
+- O U - O M E U P W I T H A P A N - R A M - O U R S E - F W I T H O U T - O O - - I N -
+=========================================================
+a g
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O - U I - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X - H A R A - T E R S O F T H E E N G - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N - E S U - H S E N T E N - E S A R E - A - - E D P A N G R A M
+S A N D T H E - A R E U S E D F O R P R A - T I - E W H E N - E A R N I N G T - P E W R I T I N G N O W - A N - O U T E
+- - M E W H - I U S E D A P A N G R A M A S P A R T O F T H E P - A I N T E X T F O R T H I S - I P H E R A - S O - A N
+- O U - O M E U P W I T H A P A N G R A M - O U R S E - F W I T H O U T G O O G - I N G
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+d q
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O Q U I - - - - T H E A B O V E S E
+N T E N - E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X - H A R A - T E R S O F T H E E N G - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N - E S U - H S E N T E N - E S A R E - A - - E D P A N G R A M
+S A N D T H E - A R E U S E D F O R P R A - T I - E W H E N - E A R N I N G T - P E W R I T I N G N O W - A N - O U T E
+- - M E W H - I U S E D A P A N G R A M A S P A R T O F T H E P - A I N T E X T F O R T H I S - I P H E R A - S O - A N
+- O U - O M E U P W I T H A P A N G R A M - O U R S E - F W I T H O U T G O O G - I N G
+=========================================================
+r c
+q k
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O Q U I C K - - T H E A B O V E S E
+N T E N C E H A S T H E P R O P E R T - T H A T A - - T H E T W E N T - S I X C H A R A C T E R S O F T H E E N G - I S
+H A - P H A B E T A P P E A R S I N I T A T - E A S T O N C E S U C H S E N T E N C E S A R E C A - - E D P A N G R A M
+S A N D T H E - A R E U S E D F O R P R A C T I C E W H E N - E A R N I N G T - P E W R I T I N G N O W C A N - O U T E
+- - M E W H - I U S E D A P A N G R A M A S P A R T O F T H E P - A I N T E X T F O R T H I S C I P H E R A - S O C A N
+- O U C O M E U P W I T H A P A N G R A M - O U R S E - F W I T H O U T G O O G - I N G
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+u l
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O Q U I C K L - T H E A B O V E S E
+N T E N C E H A S T H E P R O P E R T - T H A T A L L T H E T W E N T - S I X C H A R A C T E R S O F T H E E N G L I S
+H A L P H A B E T A P P E A R S I N I T A T L E A S T O N C E S U C H S E N T E N C E S A R E C A L L E D P A N G R A M
+S A N D T H E - A R E U S E D F O R P R A C T I C E W H E N L E A R N I N G T - P E W R I T I N G N O W C A N - O U T E
+L L M E W H - I U S E D A P A N G R A M A S P A R T O F T H E P L A I N T E X T F O R T H I S C I P H E R A L S O C A N
+- O U C O M E U P W I T H A P A N G R A M - O U R S E L F W I T H O U T G O O G L I N G
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+x y
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O Q U I C K L Y T H E A B O V E S E
+N T E N C E H A S T H E P R O P E R T Y T H A T A L L T H E T W E N T Y S I X C H A R A C T E R S O F T H E E N G L I S
+H A L P H A B E T A P P E A R S I N I T A T L E A S T O N C E S U C H S E N T E N C E S A R E C A L L E D P A N G R A M
+S A N D T H E Y A R E U S E D F O R P R A C T I C E W H E N L E A R N I N G T Y P E W R I T I N G N O W C A N Y O U T E
+L L M E W H Y I U S E D A P A N G R A M A S P A R T O F T H E P L A I N T E X T F O R T H I S C I P H E R A L S O C A N
+Y O U C O M E U P W I T H A P A N G R A M Y O U R S E L F W I T H O U T G O O G L I N G
+=========================================================
+z
+Cipher Text:
+I G B P T L Z G Y M G S W S T K S C K V S J E H K O G S F G B J F G S S N E T A K B B D O E R Q U X K V S Z I B W S Y S
+T K S T R S V Z Y K V S M G B M S G K X K V Z K Z U U K V S K P S T K X Y E H R V Z G Z R K S G Y B F K V S S T A U E Y
+V Z U M V Z I S K Z M M S Z G Y E T E K Z K U S Z Y K B T R S Y O R V Y S T K S T R S Y Z G S R Z U U S C M Z T A G Z J
+Y Z T C K V S X Z G S O Y S C F B G M G Z R K E R S P V S T U S Z G T E T A K X M S P G E K E T A T B P R Z T X B O K S
+U U J S P V X E O Y S C Z M Z T A G Z J Z Y M Z G K B F K V S M U Z E T K S H K F B G K V E Y R E M V S G Z U Y B R Z T
+X B O R B J S O M P E K V Z M Z T A G Z J X B O G Y S U F P E K V B O K A B B A U E T A
+s
+Partial Solution:
+B R O W N J A R S P R E V E N T E D T H E M I X T U R E F R O M F R E E Z I N G T O O Q U I C K L Y T H E A B O V E S E
+N T E N C E H A S T H E P R O P E R T Y T H A T A L L T H E T W E N T Y S I X C H A R A C T E R S O F T H E E N G L I S
+H A L P H A B E T A P P E A R S I N I T A T L E A S T O N C E S U C H S E N T E N C E S A R E C A L L E D P A N G R A M
+S A N D T H E Y A R E U S E D F O R P R A C T I C E W H E N L E A R N I N G T Y P E W R I T I N G N O W C A N Y O U T E
+L L M E W H Y I U S E D A P A N G R A M A S P A R T O F T H E P L A I N T E X T F O R T H I S C I P H E R A L S O C A N
+Y O U C O M E U P W I T H A P A N G R A M Y O U R S E L F W I T H O U T G O O G L I N G
+=========================================================
