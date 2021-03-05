@@ -62,20 +62,31 @@ while(cont):
             print("=========================================================")
         elif temp == 'T':
             print("Enter first pair to try in the form: p1 p2 c1 c2")
+            pMatrix = [[], []]
+            cMatrix = [[], []]
             firstInput = input().upper().split()
-            pMatrix = [[ord(firstInput[0])-65, ord(firstInput[1])-65]]
-            cMatrix = [[ord(firstInput[2])-65, ord(firstInput[3])-65]]
+            pMatrix[0].append(ord(firstInput[0])-65)
+            pMatrix[1].append(ord(firstInput[1])-65)
+            cMatrix[0].append(ord(firstInput[2])-65)
+            cMatrix[1].append(ord(firstInput[3])-65)
 
             print("Enter second pair to try in the form: p3 p4 c3 c4")
             secondInput = input().upper().split()
-            pMatrix.append([ord(secondInput[0])-65, ord(secondInput[1])-65])
-            cMatrix.append([ord(secondInput[2])-65, ord(secondInput[3])-65])
+            pMatrix[0].append(ord(secondInput[0])-65)
+            pMatrix[1].append(ord(secondInput[1])-65)
+            cMatrix[0].append(ord(secondInput[2])-65)
+            cMatrix[1].append(ord(secondInput[3])-65)
 
             xInverse = decryptionKey(pMatrix)
 
             if xInverse != None:
                 keyAttempt = matrixMult(cMatrix, xInverse)
                 keyAttemptInverse = decryptionKey(keyAttempt)
+                print(pMatrix)
+                print(cMatrix)
+                print(xInverse)
+                print(keyAttempt)
+                print(keyAttemptInverse)
 
                 if keyAttemptInverse != None:
                     print("Key:")

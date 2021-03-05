@@ -18,20 +18,20 @@ def decryptHill(ciphertext, key, m):
         if i == cipherLen-(m-1):
             break
 
-        tempCode = [[]]
+        tempCode = []
         for j in range(m):
-            tempCode[0].append(ord(ciphertext[i + j])-65)
+            tempCode.append([ord(ciphertext[i + j])-65])
 
-        ptVector = matrixMult(tempCode, keyInverse)
+        ptVector = matrixMult(keyInverse, tempCode)
 
-        for l in ptVector[0]:
-            plaintext = plaintext + chr(l + 65)
+        for l in ptVector:
+            plaintext = plaintext + chr(l[0] + 65)
 
     return plaintext
 
 
 #   matrixMult(x, y)
-# Returns matrix * matrix y.
+# Returns matrix x * matrix y.
 # Does no error checking.
 
 def matrixMult(x, y):
@@ -69,8 +69,8 @@ def decryptionKey(key):
     if (determinant == None):
         return None
     else:
-        invert = [[key[1][1] % 26, (key[0][1]*-1) %
-                   26], [(key[1][0]*-1) % 26, key[0][0] % 26]]
+        invert = [[key[1][1] % 26, (key[0][1]*-1) % 26],
+                  [(key[1][0]*-1) % 26, key[0][0] % 26]]
 
     ret = [[], []]
 
@@ -144,5 +144,8 @@ def getDeterminant(key):
     return ret
 
 
-x = (decryptionKey([[11, 20], [9, 23]]))
-print(matrixMult(x, [[11, 20], [9, 23]]))
+x = [[1, 2, 3], [4, 5, 6]]
+
+y = [[7, 8], [9, 10], [11, 12]]
+
+print(matrixMult(x, y))
